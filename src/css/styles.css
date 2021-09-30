@@ -17,7 +17,7 @@ html {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgb(252, 252, 253);
+  background-color: #ffffff;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -83,7 +83,7 @@ ul {
 
 .card__item {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 39px;
   color: rgb(56, 51, 51);
 }
 
