@@ -27,7 +27,7 @@ function inputValidation(country) {
     return
   } else if (country.length > 10) {
     refs.country.innerHTML = '';
-    serverResponse(warning, 'Too many matches found. Please enter a more specific qery!');
+    serverResponse(warning, 'Too many matches found. Please enter a more specific query!');
     return
   } else if (country.length > 1) {
     refs.country.innerHTML = CountriesListTemplate(country);
